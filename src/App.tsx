@@ -1,9 +1,12 @@
-import Form from './components/Form'
+import LoginForm from './components/LoginForm'
+import Wrapper from './components/Wrapper'
 
 function App() {
 
   return (
-    <Form />
+    <Wrapper $column $centered>
+      <LoginForm />
+    </Wrapper>
   )
 }
 
